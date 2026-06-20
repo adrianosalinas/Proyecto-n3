@@ -16,7 +16,7 @@ public class Paddle extends ElementoJuego implements Colisionable {
     public void draw(ShapeRenderer shape){
         shape.setColor(Color.BLUE);
         
-        // Solo permitimos mover la paleta si el estado es JUGANDO
+        // Solo permitimos mover la paleta si el estado es JUGANDO la
         if (GestorJuego.getInstancia().getEstadoActual() == GestorJuego.Estado.JUGANDO) {
             int x2 = x;
             if (Gdx.input.isKeyPressed(Input.Keys.LEFT)) x2 = x - 7;
