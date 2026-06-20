@@ -20,12 +20,11 @@ public class GestorJuego {
             this.estadoActual = Estado.JUGANDO;
         }
     }
-    // 2. Constructor privado para evitar que otras clases usen "new GestorJuego()"
     private GestorJuego() {
         resetearJuego();
     }
 
-    // 3. Método público global para obtener la única instancia activa
+    // Método público global para obtener la única instancia activa
     public static GestorJuego getInstancia() {
         if (instancia == null) {
             instancia = new GestorJuego();
