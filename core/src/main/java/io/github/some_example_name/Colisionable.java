@@ -1,5 +1,5 @@
 package io.github.some_example_name;
-// CLASE DE INTERFAZ
+// CLASE DE INTERFAZ DE COLICiÓN
 public interface Colisionable {
     
     int getX();
