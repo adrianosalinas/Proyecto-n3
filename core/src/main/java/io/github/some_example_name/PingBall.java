@@ -5,8 +5,6 @@ import com.badlogic.gdx.graphics.glutils.ShapeRenderer;
 
 // PingBall hereda de la clase abstracta
 public class PingBall extends ElementoJuego {
-    
-    // Eliminamos 'x' e 'y' de aquí porque ya se heredan de ElementoJuego
     private int size;
     private int xSpeed;
     private int ySpeed;
