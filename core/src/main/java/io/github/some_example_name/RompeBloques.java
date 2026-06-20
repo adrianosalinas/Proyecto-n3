@@ -23,9 +23,6 @@ public class RompeBloques extends ApplicationAdapter {
     private Paddle pad;
     private ArrayList<Block> blocks = new ArrayList<>();
     
-    // Eliminamos las variables primitivas locales 'vidas', 'puntaje' y 'nivel' 
-    // porque ahora residen dentro de GestorJuego.getInstancia()
-
     @Override
     public void create () { 
         camera = new OrthographicCamera();
